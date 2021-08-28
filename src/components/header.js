@@ -9,10 +9,10 @@ const Header = () => (
           <div className="w-3/12 uppercase text-base md:text-lg lg:text-xl text-white font-semibold">Personal Web</div>
           <div className="w-6/12">
             <ul className="flex justify-center items-center my-auto space-x-4 md:space-x-6 lg:space-x-10">
-              <li className="text-white font-semibold text-sm md:text-base lg:text-lg opacity-70"><a>Profile</a></li>
-              <li className="text-white font-semibold text-sm md:text-base lg:text-lg opacity-70"><a>Skills</a></li>
-              <li className="text-white font-semibold text-sm md:text-base lg:text-lg opacity-70"><a>Projects</a></li>
-              <li className="text-white font-semibold text-sm md:text-base lg:text-lg opacity-70"><a>Contact</a></li>
+              <li className="text-white font-semibold text-sm md:text-base lg:text-lg opacity-70">Profile</li>
+              <li className="text-white font-semibold text-sm md:text-base lg:text-lg opacity-70">Skills</li>
+              <li className="text-white font-semibold text-sm md:text-base lg:text-lg opacity-70">Projects</li>
+              <li className="text-white font-semibold text-sm md:text-base lg:text-lg opacity-70">Contact</li>
             </ul>
           </div>
           <div className="w-3/12 flex justify-end">
