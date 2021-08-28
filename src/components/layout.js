@@ -12,6 +12,7 @@ import { useStaticQuery, graphql } from "gatsby"
 import Header from "./header"
 import "./layout.css"
 import "@fontsource/ibm-plex-mono" // Defaults to weight 400.
+import "@fontsource/roboto" // Defaults to weight 400.
 
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
@@ -27,7 +28,7 @@ const Layout = ({ children }) => {
   return (
     <>
       <Header siteTitle={data.site.siteMetadata?.title || `Title`} />
-        <main>{children}</main>
+        <main className="-mt-80 md:-mt-66 lg:-mt-72">{children}</main>
         <footer
           style={{
             marginTop: `2rem`,

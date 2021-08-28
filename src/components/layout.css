@@ -1,13 +1,29 @@
 
-body {
+header {
   margin: 0;
   font-family: "IBM Plex mono";
-  -moz-font-feature-settings: "kern", "liga", "clig", "calt";
-  -ms-font-feature-settings: "kern", "liga", "clig", "calt";
-  -webkit-font-feature-settings: "kern", "liga", "clig", "calt";
-  font-feature-settings: "kern", "liga", "clig", "calt";
+}
+
+main {
+  font-family: "Roboto";
+}
+
+.lead {
+  line-height: 1rem;
+}
+
+@media (min-width: 1024px) {
+  .lead {
+    line-height: 2rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .lead {
+    line-height: 1.5rem;
+  }
 }
 
 .bg-hero {
-  background-image: url('../../public/logo/hero2.png');
+  background-image: url('../../public/hero.png');
 }
