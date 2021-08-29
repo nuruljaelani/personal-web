@@ -1,5 +1,4 @@
 import * as React from "react"
-import PropTypes from "prop-types"
 
 const Header = () => (
   <header>
@@ -32,13 +31,5 @@ const Header = () => (
     </div>
   </header>
 )
-
-Header.propTypes = {
-  siteTitle: PropTypes.string,
-}
-
-Header.defaultProps = {
-  siteTitle: `Home`,
-}
 
 export default Header

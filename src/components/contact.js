@@ -12,21 +12,21 @@ const Contact = () => {
                             <p className="text-gray-500 text-sm md:text-base">Beberapa cara menghubungi saya</p>
                             <div className="flex flex-col space-y-8 md:space-y-10 lg:space-y-12 mt-6 md:mt-10 lg:mt-16">
                                 <div className="flex space-x-4 items-start">
-                                    <StaticImage src="../../public/logo/google-gmail.svg" className="w-1/12" />
+                                    <StaticImage src="../images/google-gmail.svg" className="w-1/12" />
                                     <div className="w-11/12">
                                         <p className="font-semibold text-gray-600 text-sm md:text-base">Email</p>
                                         <p className="font-semibold text-base md:text-lg">parker@gmail.com</p>
                                     </div>
                                 </div>
                                 <div className="flex space-x-4 items-start">
-                                    <StaticImage src="../../public/logo/github-icon.svg" className="w-1/12" />
+                                    <StaticImage src="../images/github-icon.svg" className="w-1/12" />
                                     <div className="w-11/12">
                                         <p className="font-semibold text-gray-600 text-sm md:text-base">Github</p>
                                         <p className="font-semibold text-base md:text-lg">https://github.com/parkercannon</p>
                                     </div>
                                 </div>
                                 <div className="flex space-x-4 items-start">
-                                    <StaticImage src="../../public/logo/linkedin-icon.svg" className="w-1/12" />
+                                    <StaticImage src="../images/linkedin-icon.svg" className="w-1/12" />
                                     <div className="w-11/12">
                                         <p className="font-semibold text-gray-600 text-sm md:text-base">Linkedin</p>
                                         <p className="font-semibold text-base md:text-lg">https://linkedin.com/in/parker-cannon</p>
@@ -40,20 +40,20 @@ const Contact = () => {
                             <form className="space-y-6">
                                 <div className="flex flex-col lg:flex-row space-x-0 lg:space-x-8 space-y-8 lg:space-y-0">
                                     <div className="w-full lg:w-1/2 flex flex-col">
-                                        <label className="font-semibold">Name</label>
-                                        <input type="text" className="bg-transparent border border-purple-400 focus:outline-none p-2" />
+                                        <label htmlFor="name" className="font-semibold">Name</label>
+                                        <input type="text" name="name" className="bg-transparent border border-purple-400 focus:outline-none p-2" />
                                     </div>
                                     <div className="w-full lg:w-1/2 flex flex-col">
-                                        <label className="font-semibold">Email</label>
+                                        <label htmlFor="email" className="font-semibold">Email</label>
                                         <input type="text" className="bg-transparent border border-purple-400 focus:outline-none p-2" />
                                     </div>
                                 </div>
                                 <div className="flex flex-col">
-                                    <label className="font-semibold">Subject</label>
+                                    <label htmlFor="subject" className="font-semibold">Subject</label>
                                     <input type="text" className="bg-transparent border border-purple-400 focus:outline-none p-2" />
                                 </div>
                                 <div className="flex flex-col">
-                                    <label className="font-semibold">Message</label>
+                                    <label htmlFor="message" className="font-semibold">Message</label>
                                     <textarea className="bg-transparent border border-purple-400 focus:outline-none p-2" rows="6"></textarea>
                                 </div>
                                 <div className="flex justify-end">
