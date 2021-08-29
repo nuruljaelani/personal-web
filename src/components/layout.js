@@ -33,6 +33,7 @@ const Layout = ({ children }) => {
           style={{
             marginTop: `2rem`,
           }}
+          className="text-center py-8"
         >
           © {new Date().getFullYear()}, Built with
           {` `}
