@@ -5,8 +5,8 @@ const Contact = () => {
     return (
         <>
             <div className="container mx-auto px-8 md:px-20 lg:px-28 my-6">
-                <div className="flex bg-gray-200 rounded">
-                    <div className="w-1/2 flex flex-col border-r-2 border-gray-400">
+                <div className="flex flex-col md:flex-row bg-gray-200 rounded">
+                    <div className="w-full md:w-1/2 flex flex-col border-r-0 md:border-r-2 border-gray-400">
                         <div className="p-4 md:p-8 lg:p-12">
                             <p className="text-lg md:text-xl lg:text-3xl font-semibold tracking-widest">Contact</p>
                             <p className="text-gray-500 text-sm md:text-base">Beberapa cara menghubungi saya</p>
@@ -35,7 +35,7 @@ const Contact = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="w-1/2 flex flex-col">
+                    <div className="w-full md:w-1/2 flex flex-col">
                         <div className="p-4 md:p-8 lg:p-12">
                             <form className="space-y-6">
                                 <div className="flex flex-col lg:flex-row space-x-0 lg:space-x-8 space-y-8 lg:space-y-0">

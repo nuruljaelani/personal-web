@@ -10,7 +10,7 @@ const Profile = () => {
             </div>
             <div className="flex flex-col items-center md:items-start w-full md:flex-row space-y-4 md:space-y-0 space-x-4 md:space-x-8 lg:space-x-16">
                 <div className="w-full md:w-1/3">
-                    <StaticImage src="../images/foto.png" alt="Foto Profile" />
+                    <StaticImage src="../images/pc.jpg" alt="Foto Profile" />
                 </div>
                 <div className="w-full md:w-2/3">
                     <p className="text-sm md:text-base font-medium lead text-justify">
