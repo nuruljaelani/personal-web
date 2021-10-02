@@ -25,6 +25,10 @@ const Layout = ({ children, profile, skills, projects, contact, options }) => {
     }
   `)
 
+  if (typeof window === 'undefined') {
+    global.window = {}
+  }
+
   return (
     <>
       <Header siteTitle={data.site.siteMetadata?.title || `Title`} profile={profile} skills={skills} projects={projects} contact={contact} options={options} />
