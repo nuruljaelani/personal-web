@@ -1,10 +1,10 @@
 import { StaticImage } from 'gatsby-plugin-image'
 import React from 'react'
 
-const Project = () => {
+const Project = ({projects}) => {
     return (
         <>
-            <div className="container mx-auto px-8 md:px-20 lg:px-28 py-16 md:py-20 lg:py-32">
+            <div className="container mx-auto px-8 md:px-20 lg:px-28 py-16 md:py-20 lg:py-32" ref={projects}>
                 <p className=" text-xl md:text-2xl lg:text-3xl font-semibold text-center tracking-widest">Projects</p>
                 <div className="flex flex-col md:flex-row md:space-x-10 lg:space-x-16 mt-10 md:mt-12 lg:mt-20">
                     <div className="w-full md:w-1/2 space-y-8 md:space-y-12">

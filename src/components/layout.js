@@ -14,7 +14,7 @@ import "./layout.css"
 import "@fontsource/ibm-plex-mono" // Defaults to weight 400.
 import "@fontsource/roboto" // Defaults to weight 400.
 
-const Layout = ({ children }) => {
+const Layout = ({ children, profile, skills, projects, contact, options }) => {
   const data = useStaticQuery(graphql`
     query SiteTitleQuery {
       site {
@@ -27,8 +27,8 @@ const Layout = ({ children }) => {
 
   return (
     <>
-      <Header siteTitle={data.site.siteMetadata?.title || `Title`} />
-        <main className="-mt-80 md:-mt-66 lg:-mt-72">{children}</main>
+      <Header siteTitle={data.site.siteMetadata?.title || `Title`} profile={profile} skills={skills} projects={projects} contact={contact} options={options} />
+        <main className="-mt-80 md:-mt-66">{children}</main>
         <footer
           style={{
             marginTop: `2rem`,

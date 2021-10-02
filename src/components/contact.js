@@ -1,10 +1,10 @@
 import { StaticImage } from 'gatsby-plugin-image'
 import * as React from 'react'
 
-const Contact = () => {
+const Contact = ({contact}) => {
     return (
         <>
-            <div className="container mx-auto px-8 md:px-20 lg:px-28 my-6">
+            <div className="container mx-auto px-8 md:px-20 lg:px-28 my-6" ref={contact}>
                 <div className="flex flex-col md:flex-row bg-gray-200 rounded">
                     <div className="w-full md:w-1/2 flex flex-col border-r-0 md:border-r-2 border-gray-400">
                         <div className="p-4 md:p-8 lg:p-12">
@@ -12,21 +12,21 @@ const Contact = () => {
                             <p className="text-gray-500 text-sm md:text-base">Beberapa cara menghubungi saya</p>
                             <div className="flex flex-col space-y-8 md:space-y-10 lg:space-y-12 mt-6 md:mt-10 lg:mt-16">
                                 <div className="flex space-x-4 items-start">
-                                    <StaticImage src="../images/google-gmail.svg" className="w-1/12" />
+                                    <StaticImage src="../images/google-gmail.svg" className="w-1/12" alt="Email" />
                                     <div className="w-11/12">
                                         <p className="font-semibold text-gray-600 text-sm md:text-base">Email</p>
                                         <p className="font-semibold text-base md:text-lg">parker@gmail.com</p>
                                     </div>
                                 </div>
                                 <div className="flex space-x-4 items-start">
-                                    <StaticImage src="../images/github-icon.svg" className="w-1/12" />
+                                    <StaticImage src="../images/github-icon.svg" className="w-1/12" alt="Github" />
                                     <div className="w-11/12">
                                         <p className="font-semibold text-gray-600 text-sm md:text-base">Github</p>
                                         <p className="font-semibold text-base md:text-lg">https://github.com/parkercannon</p>
                                     </div>
                                 </div>
                                 <div className="flex space-x-4 items-start">
-                                    <StaticImage src="../images/linkedin-icon.svg" className="w-1/12" />
+                                    <StaticImage src="../images/linkedin-icon.svg" className="w-1/12" alt="Linkedin" />
                                     <div className="w-11/12">
                                         <p className="font-semibold text-gray-600 text-sm md:text-base">Linkedin</p>
                                         <p className="font-semibold text-base md:text-lg">https://linkedin.com/in/parker-cannon</p>
