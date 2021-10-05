@@ -10,26 +10,33 @@ const Contact = ({contact}) => {
                         <div className="p-4 md:p-8 lg:p-12">
                             <p className="text-lg md:text-xl lg:text-3xl font-semibold tracking-widest">Contact</p>
                             <p className="text-gray-500 text-sm md:text-base">Beberapa cara menghubungi saya</p>
-                            <div className="flex flex-col space-y-8 md:space-y-10 lg:space-y-12 mt-6 md:mt-10 lg:mt-16">
+                            <div className="flex flex-col space-y-4 md:space-y-6 lg:space-y-8 mt-2 md:mt-6 lg:mt-10">
                                 <div className="flex space-x-4 items-start">
                                     <StaticImage src="../images/google-gmail.svg" className="w-1/12" alt="Email" />
                                     <div className="w-11/12">
                                         <p className="font-semibold text-gray-600 text-sm md:text-base">Email</p>
-                                        <p className="font-semibold text-base md:text-lg">parker@gmail.com</p>
+                                        <p className="font-semibold text-sm md:text-base">nuruljaelani96@gmail.com</p>
                                     </div>
                                 </div>
                                 <div className="flex space-x-4 items-start">
                                     <StaticImage src="../images/github-icon.svg" className="w-1/12" alt="Github" />
                                     <div className="w-11/12">
                                         <p className="font-semibold text-gray-600 text-sm md:text-base">Github</p>
-                                        <p className="font-semibold text-base md:text-lg">https://github.com/parkercannon</p>
+                                        <a href='https://github.com/nuruljaelani' target="_blank" rel="noreferrer" className="text-blue-400 font-semibold text-sm md:text-base">https://github.com/nuruljaelani</a>
                                     </div>
                                 </div>
                                 <div className="flex space-x-4 items-start">
                                     <StaticImage src="../images/linkedin-icon.svg" className="w-1/12" alt="Linkedin" />
                                     <div className="w-11/12">
                                         <p className="font-semibold text-gray-600 text-sm md:text-base">Linkedin</p>
-                                        <p className="font-semibold text-base md:text-lg">https://linkedin.com/in/parker-cannon</p>
+                                        <a href='https://linkedin.com/in/nurul-jaelani' target='_blank' rel="noreferrer" className="text-blue-400 font-semibold text-sm md:text-base">https://linkedin.com/in/nurul-jaelani</a>
+                                    </div>
+                                </div>
+                                <div className="flex space-x-4 items-start">
+                                    <StaticImage src="../images/Dribbble_logo_black-1.png" className="w-1/12" alt="Dribble" />
+                                    <div className="w-11/12">
+                                        <p className="font-semibold text-gray-600 text-sm md:text-base">Dribble</p>
+                                        <a href='https://dribbble.com/nuruljaelani' target='_blank' rel="noreferrer" className="text-blue-400 font-semibold text-sm md:text-base">https://dribbble.com/nuruljaelani</a>
                                     </div>
                                 </div>
                             </div>
