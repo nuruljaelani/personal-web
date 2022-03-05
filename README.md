@@ -2,7 +2,7 @@
 ## 🚀 Personal Web
 
   **Landing Page**
-  [https://personal-web-dev.vercel.app](https://personal-web-dev.vercel.app/)
+  [https://nuruljaelani.my.id](https://nuruljaelani.my.id/)
     
   
   
