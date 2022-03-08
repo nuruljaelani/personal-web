@@ -10,12 +10,12 @@ const Profile = ({profile}) => {
             </div>
             <div className="flex flex-col items-center sm:items-start w-full sm:flex-row space-y-4 sm:space-y-0 space-x-0 md:space-x-8">
                 <div className="w-full sm:w-1/2 md:w-2/4">
-                    <StaticImage src="../images/nj2-min.png" alt="Foto Profile" />
+                    <StaticImage src="../images/20220304_090903.jpg" alt="Foto Profile" />
                 </div>
                 <div className="w-full sm:w-1/2 md:w-2/4">
-                    <p className="text-sm md:text-base font-medium lead text-justify">
-                    Saya seorang fullstack web developer. Saya selalu berusaha memberikan yang terbaik disetiap projek. Saya sangat senang dan antusias ketika mendapatkan pengetahuan dan wawasan baru, dan selalu belajar terus untuk menjadi lebih baik lagi. Teknologi yang saya gunakan
-                    yaitu HTML, CSS, Javascript, PHP, Laravel, React Js, dan Vue Js.
+                    <p className="text-sm md:text-base lg:text-lg font-medium lead text-justify">
+                    Seorang fullstack web developer dengan pengalaman 1+ tahun. Terbiasa bekerja dengan tim maupun individu serta dalam pemecahan masalah. Saya sangat senang dan antusias ketika mendapatkan pengetahuan dan wawasan baru, dan selalu belajar terus untuk menjadi lebih baik lagi. Teknologi yang saya gunakan
+                    yaitu HTML, CSS, Javascript, PHP, Laravel, Node Js, React Js, dan Vue Js.
                     </p>
                 </div>
             </div>
