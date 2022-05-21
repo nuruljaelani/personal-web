@@ -4,7 +4,7 @@ import React from 'react'
 const Project = ({projects}) => {
     return (
         <>
-            <div className="container mx-auto max-w-6xl py-6 md:py-20 lg:py-32" ref={projects}>
+            <div className="container mx-auto max-w-6xl py-6 md:py-12 lg:py-20" ref={projects}>
                 <p className=" text-xl md:text-2xl lg:text-3xl font-semibold text-center tracking-widest">Projects</p>
                 <div className="flex flex-col space-y-8 md:space-y-0 md:flex-row md:space-x-10 lg:space-x-16 mt-10 md:mt-12 lg:mt-20 px-4">
                     <div className="w-full md:w-1/2 space-y-8 md:space-y-12">

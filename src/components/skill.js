@@ -6,7 +6,7 @@ const Skill = ({skills}) => {
         <div>
             <section className="bg-gray-100" ref={skills}>
                 <div className="container max-w-6xl mx-auto">
-                    <div className="flex flex-col py-6 md:py-20 lg:py-32">
+                    <div className="flex flex-col py-6 md:py-12 lg:py-20">
                         <p className="text-xl md:text-2xl lg:text-3xl font-semibold text-center tracking-widest">Skills</p>
                         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 mt-10 md:mt-12 lg:mt-20 px-4">
                             <div className="bg-white shadow-lg flex items-center p-2 md:p-4 lg:p-6">

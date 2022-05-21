@@ -28,7 +28,7 @@ const Layout = ({ children, profile, skills, projects, contact, options }) => {
   return (
     <>
       <Header siteTitle={data.site.siteMetadata?.title || `Title`} profile={profile} skills={skills} projects={projects} contact={contact} options={options} />
-        <main className="-mt-80 md:-mt-66">{children}</main>
+        <main className="mt-20 md:mt-32 max-w-8xl mx-auto">{children}</main>
         <footer
           style={{
             marginTop: `2rem`,

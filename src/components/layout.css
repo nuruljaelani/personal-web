@@ -25,5 +25,9 @@ main {
 }
 
 .bg-hero {
-  background-image: url('../images/hero2.png');
+  background-image: url('../images/Group21.png');
+}
+
+.bg-hero-2 {
+  background-image: url('../images/Group20.png');
 }
